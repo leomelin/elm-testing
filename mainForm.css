@@ -1,0 +1,58 @@
+body {
+  font-size: 24px;
+}
+
+.form-container {
+  padding: 40px;
+}
+
+.input-container {
+  position: relative;
+  display: inline-block;
+  float: left;
+  clear: both;
+}
+
+.input-container .err-container {
+  position: absolute;
+  font-size: 12px;
+  background-color: red;
+  border-radius: 2px;
+  padding: 5px;
+  bottom: 37px;
+  color: white;
+}
+
+.input-container .err-container .ticker {
+  position: absolute;
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+
+	border-top: 10px solid red;
+  left: 50%;
+  margin-left: -10px;
+}
+
+.input-container .err-container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.input-container input {
+  height: 32px;
+  margin: 0;
+  padding: 0 5px;
+  box-sizing: border-box;
+}
+
+.input-container input.error {
+  color: red;
+}
+
+.passwords-equal {
+  display: block;
+  clear: both;
+}
